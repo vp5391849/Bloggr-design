@@ -1,0 +1,316 @@
+* {
+  margin: 0%;
+  padding: 0;
+  /* background-color: rgb(204, 198, 107); */
+  color: white;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+/* oye yahi hai ??haan abbe is projecdt ka folder khol ke de exploreer  */
+
+/* tere laptop me alag level bakchodi hai, ye kya hai bhenchod itna sab thodi tha modules me
+awkward */
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+header {
+  height: 70vh;
+  width: 100vw;
+  border-radius: 0px 0px 0px 80px;
+  background-image: url("./images/bg-pattern-intro.svg"),
+    linear-gradient(to right, #ff856e, #ff6865);
+
+  background-size: 150%;
+  background-position: -10rem;
+  background-repeat: no-repeat;
+
+  opacity: 1;
+}
+
+.header {
+  transform: translateX(4rem);
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-flex;
+}
+.header-logo {
+  position: relative;
+  top: 13px;
+}
+
+.navbar-list-item {
+  list-style: none;
+  padding: 2rem 0rem 2rem 2rem;
+  font-size: 10px;
+}
+
+.btn-login {
+  position: absolute;
+  top: 34px;
+  right: 10rem;
+  border: none;
+  font-size: 10px;
+  transform: translate(1px 10px);
+  background-color: #ff6865;
+}
+
+.btn-signup {
+  position: absolute;
+  top: 30px;
+  right: 4rem;
+  border: none;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: #ff856e;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.container-subheading {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0rem, -5rem);
+}
+.container-subheading h1 {
+  font-size: 50px;
+  transform: translate(0rem, -1rem);
+}
+.container-subheading p {
+  font-size: 15px;
+  color: #eedcd9;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn-learn {
+  display: inline-block;
+  font-size: 10px;
+  background-color: #ff6865;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  transform: translate(0rem, 1rem);
+}
+.btn-start {
+  display: inline-block;
+  font-size: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  color: #ff856e;
+  transform: translate(0rem, 1rem);
+}
+
+.btn-start a {
+  color: #ff856e;
+  text-decoration: none;
+}
+
+.btn-learn a {
+  color: white;
+  text-decoration: none;
+}
+
+/* section area */
+#section-for-first-img {
+  /* overflow-x: hidden; */
+  width: 100vw;
+  height: 130vh;
+  background: url("./images/illustration-editor-desktop.svg");
+  background-size: 60%;
+  background-position: 44rem 4rem;
+  background-repeat: no-repeat;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: center;
+}
+
+#section-heading-1 {
+  display: inline-flex;
+  color: #25455e;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(8rem);
+}
+
+.section-subheading {
+  color: #25455e;
+  position: absolute;
+  top: 42rem;
+  left: 6rem;
+}
+.section-first-para {
+  position: absolute;
+  top: 45rem;
+  left: 6rem;
+  color: #948e8d;
+  width: 35%;
+  font-size: 13px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+
+#subheading-2 {
+  top: 60rem;
+}
+#second-para {
+  top: 63rem;
+}
+
+#section-for-second-img {
+  width: 100vw;
+  height: 60vh;
+
+  background: linear-gradient(to left, #3c3f5e, #333448);
+  border-radius: 0px 80px 0px 80px;
+  transform: translateY(3rem);
+}
+.section-2-heading {
+  position: absolute;
+  top: 7rem;
+  right: 11rem;
+  color: #fffeff;
+  font-size: 2rem;
+}
+.section-2-para {
+  position: absolute;
+  top: 11rem;
+  right: 8.6rem;
+  color: #fffeff;
+  width: 38%;
+  font-size: 13px;
+  word-spacing: 5px;
+  line-height: 25px;
+  opacity: 0.7;
+}
+#phones-img {
+  width: 80%;
+  position: relative;
+  top: -5rem;
+  left: 5rem;
+  height: 150%;
+}
+.phones-img {
+  background-image: url("./images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: -10rem -30rem;
+  height: 60vh;
+  width: 50vw;
+}
+
+.section-3-for-img {
+  transform: translateY(10rem);
+  height: 120vh;
+  width: 100vw;
+  background: url("./images/illustration-laptop-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+
+  background-position: -16.5rem;
+}
+
+.section-3-heading {
+  color: #25455e;
+  position: absolute;
+  right: 25rem;
+  top: 10rem;
+}
+.section-3-first-para {
+  color: #948e8d;
+  position: absolute;
+  right: 8rem;
+  top: 13rem;
+  width: 38%;
+  font-size: 15px;
+  word-spacing: 5px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#section-3-heading-2{
+  top: 27rem;
+  right: 27rem;
+}
+#section-3-para-2{
+  top: 30rem;
+}
+
+
+
+
+
+
+
+.section-for-footer{
+  position: absolute;
+  top: 165rem;
+  height: 60vh;
+  width: 100vw;
+background-color: #24242c;
+border-radius: 0px 100px 0px 0px;
+background-image:url(./images/logo.svg);
+background-repeat: no-repeat;
+background-position: 7rem 4.2rem;
+
+}
+.first-product{
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+  top: 6rem;
+left: 24rem;
+ 
+ line-height: 2rem;
+
+}
+#second-product{
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+  transform: translateX(12rem);
+}
+#third-product{
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+  transform: translateX(24rem);
+}
+
+.links-1{
+  text-decoration: none;
+  font-weight: 100;
+  color: #e2e2ee;
+  display: inline;
+  font-size: 15px;
+}
+strong{
+  transform: translateY(-1.5rem);
+}
+
+
+
+
